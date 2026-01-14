@@ -41,6 +41,7 @@ for(i=1; i<=5; i++){
 ```
 
 Array Methods (All array methods require arrow functions as arguments.)
+
 map(callback) 
 filter(callback)
 reduce(callback)
