@@ -31,13 +31,13 @@ scores1.filter(scores1 =>{
 
 // reduce method
 
-let numbers = [1,2,3,4,5]
-sum = 0
-for(let i=0;i<numbers.length;i++){
-    sum = sum + numbers[i]
-}
-console.log(sum)
-// let sum = numbers.reduce((acc, current) => (acc+current))
+// let numbers = [1,2,3,4,5]
+// sum = 0
+// for(let i=0;i<numbers.length;i++){
+//     sum = sum + numbers[i]
+// }
 // console.log(sum)
+let sum = numbers.reduce((acc, current) => (acc+current))
+console.log(sum)
 // acc=1, index:0
 // current = rest of the elements apart from index:0

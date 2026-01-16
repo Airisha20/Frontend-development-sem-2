@@ -41,7 +41,13 @@ for(i=1; i<=5; i++){
 ```
 
 Array Methods (All array methods require arrow functions as arguments.)
+1. map(callback) 
+2. filter(callback)
+3. reduce(callback)
 
-map(callback) 
-filter(callback)
-reduce(callback)
+## JS-Day-3
+More Array Methods
+4. push(element) - pushes at the end
+5. pop() - removes from the end
+6. shift() - removes from the front
+7. unshift(element) - adds from the front and returns the length
