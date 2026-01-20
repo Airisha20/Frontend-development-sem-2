@@ -51,3 +51,13 @@ More Array Methods
 5. pop() - removes from the end
 6. shift() - removes from the front
 7. unshift(element) - adds from the front and returns the length
+
+## JS-Day-4
+More Array Methods
+7. slice(start,end) - returns a new array containing elements from the original array within the specified range
+8. some(callback) - Checks if at least one element in the array satisifes the condition specified in the callback function. Returns true if ANY element meets the condition
+9. every(callback) - does what some does but returns true only when EVERY element meets the condition
+10. concat(array) - Concatenates two seperate arrays and returns a new combined array
+11. splice (start, deleteCount, item1, item2....) - Changes the content of an array by removing or replacing existing elements and/or adding new elements.
+12. reverse() - reverses the order of the array
+13. includes() - Determines whether an array inclues a certain value among its entries, returning true or false as appropriate.
