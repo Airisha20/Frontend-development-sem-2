@@ -62,4 +62,21 @@ More Array Methods
 - 12. reverse() - reverses the order of the array
 - 13. includes() - Determines whether an array inclues a certain value among its entries, returning true or false as appropriate.
 
+
+## JS-Day-5
 String Methods
+- 1. slice (start,end) - exracts a section of a string and returns it as a new string, takes start (inclusive) and end (exclusive) positions.
+- 2. substring (start, end) - slice(start, end) but doesn't accept negative indices
+- 3. indexOf() - searches the string and returns the index of the first mention of the specified substring.
+- 4. replace(search, replacement) - replaces the first occurance of a substring with specified substring.
+- 5. replaceall(search, replacement) - replaces all occurance of a substring with specified substring.
+- 6. toUpperCase() - converts string to all uppercase characters.
+- 7. toLowerCase() - converts string to all lowercase characters.
+- 8. concat(string1,string2,...) - joins two or more strings. Combines original strings and returns a new string.
+- 9. trim() - removes whitespace (spaces, tabs, line breaks) from both end of a string
+- 10. charAt(index) - returns the character at the specified index in a string.
+- 11. charCodeAt(index) - returns the unicode value at the specified index in a string
+- 12. split(separator) - splits a string into an array of substrings based on a specified seperator.
+
+Spread Operators 
+Spread operators help to destructure the array and string and gives access to each element.
