@@ -80,3 +80,27 @@ String Methods
 
 Spread Operators 
 Spread operators help to destructure the array and string and gives access to each element.
+
+Types of functions:
+- 1. Regular Functions
+- 2. Arrow Functions
+- 3. Callback Functions
+- 4. First class Functions 
+- 5. Higher order Functions
+- 6. Anonymous Functions
+- 7. Self invoking Functions (IIFE - Immediately Invoked Function Expression)
+
+First Class Functions
+- we can treat a variable as a function
+- we can pass a function inside another function as an argument
+- we can return a function from a function
+
+Higher order functions
+- they return
+- map, filter, reduce, array methods and all
+
+Anonymous functions
+- A function that has no name.
+
+Self Invoking Functions (IIFE - Immediately Invoked Function Expression)
+- To obtain data privacy and not giving the access to call anywhere we use IIFE
