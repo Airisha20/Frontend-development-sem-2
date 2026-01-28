@@ -81,6 +81,7 @@ String Methods
 Spread Operators 
 Spread operators help to destructure the array and string and gives access to each element.
 
+## JS-Day-6
 Types of functions:
 - 1. Regular Functions
 - 2. Arrow Functions
@@ -104,3 +105,8 @@ Anonymous functions
 
 Self Invoking Functions (IIFE - Immediately Invoked Function Expression)
 - To obtain data privacy and not giving the access to call anywhere we use IIFE
+
+## JS-Day-7
+
+Object Methods:
+- 1. Object.keys(obj) - returns an array containing the object's own keys
