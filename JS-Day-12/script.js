@@ -17,11 +17,15 @@ courseInput.addEventListener("change",()=>{
 })
 
 
-Form.addEventListener("Submit",(event)=>{
-    event.preventDefault()
-    console.log(event)
+Form.addEventListener("submit",(event)=>{
 
-    const name=nameInput.value
-    const course=courseInput.value
-    console.log(name,course)
+    event.preventDefault();
+   
+
+
+    const name=nameInput.value;
+    const course=courseInput.value;
+    console.log(name,course);
+
+    output.textContent=name+" "+course;
 })
