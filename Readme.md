@@ -110,3 +110,14 @@ Self Invoking Functions (IIFE - Immediately Invoked Function Expression)
 
 Object Methods:
 - 1. Object.keys(obj) - returns an array containing the object's own keys
+
+## JS 
+Execution Context 
+    - Global E.C
+        - Creation Phase (Memory Allocation)
+        - Execution Phase (code execution)
+    - Function E.C
+        - C.P 
+        - E.P
+
+TDZ - Temporal dead zone - If we declare a variable with let and const without its proper initialization so the variable will move to temporal dead zone until we declare and initialize it properly
